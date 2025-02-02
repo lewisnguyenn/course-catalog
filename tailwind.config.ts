@@ -4,7 +4,10 @@ export default {
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
+    "./layout/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
+    "./modules/**/*.{ts,tsx}",
+    "./utils/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
   ],
   theme: {
