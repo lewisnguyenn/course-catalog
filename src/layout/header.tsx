@@ -35,7 +35,7 @@ export default function Header() {
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
   };
-
+  // ...
   return (
     <div className="text-black py-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-5 md:gap-0">
