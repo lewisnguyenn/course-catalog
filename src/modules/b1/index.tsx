@@ -1,7 +1,7 @@
 "use client";
 
 import { DATA } from "@/utils/data";
-import Card from "../components/card";
+import Card from "./components/card";
 import { motion } from "framer-motion";
 import { useFilter } from "@/hooks/filter-context";
 import { useMemo } from "react";
